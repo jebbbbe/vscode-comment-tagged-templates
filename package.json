@@ -127,7 +127,7 @@
     },
     "scripts": {
         "vscode:prepublish": "npm run build",
-        "build": "node ./build/build.ts",
+        "build": "npx tsx ./build/build.ts",
         "test": "node ./test/index.mjs"
     }
 }
